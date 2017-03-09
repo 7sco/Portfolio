@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+	/*font-family: 'Open Sans', Sans-serif;*/
+	/*font-family: 'Lato', Sans-serif;*/
+	font-family: 'Roboto', Sans-serif;
+	font-size: 16;
+}
+
+/*----------  HEADER  ----------*/
+
+header{
+	background: url('../img/header.png');
+	background-color: rgba(70, 72, 82, 0.8);
+	width: 100%;  
+	background-repeat: no-repeat;
+	/*background-size: 100% 500px;*/
+	height: 500px;
+	padding: 50px 0;
+  	display: block;
+}
+
+.container1 .logo{
+	width: 75px;
+ 	margin-top: -40px; 
+}
+
+.container1 .logo img{
+	width:75px;
+	padding: 0; 
+}
+
+.container1{
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.container1 .menu1 a {
+	color: #fff;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 1.5em; 
+	padding-bottom: 5px;
+}
+
+.container1 .menu1 a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+header .line hrsdfw{
+	width:1000px;
+	background: #fff;
+	/*height: 0.1px;*/
+	margin: 0 auto;
+	opacity:0.9;
+
+}
+
+
+/*----------  ABOUT  ----------*/
+
+
+section .about{
+	max-width: 1000px;
+	width: 60%;
+	margin: 0 auto;
+	/*display: flex;*/
+	/*flex-direction:row;
+	justify-content: space-between;*/
+	margin-top:-90px;
+	background: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section .about .cajas{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	
+	flex-wrap: wrap;
+	padding: 10px 30px 20px 30px;
+}
+
+section .about .cajas .left{
+	/*border: 1px solid black;*/
+	max-width: 35%;
+	/*padding: 10px;*/
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+section .about .cajas .left .img{
+width: 100%;
+overflow: hidden;
+display: flex;
+justify-content: center;
+margin: 20px 0 25px 0;
+}
+
+section .about .cajas .left .img img{
+	width:90%;
+	height: 100%;
+}
+
+
+section .about .cajas .left .button{
+
+	display: inline-block;
+	margin: 20px 0;
+	
+}
+
+section .about .cajas .left .button a{
+	text-decoration: none;
+	background: #edba52;
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 1.2em;
+	border-radius: 5px;
+}
+
+section .about .cajas .left .button a:hover{
+	opacity: 0.9;
+}
+
+
+section .about .cajas .right{
+	max-width: 65%;
+	width: 100%;
+	padding: 20px 10px 0 20px;
+	display: flex;
+	flex-direction: column;
+	/*text-align: center;*/
+	align-self: stretch;
+}
+
+section .about .cajas .right .button{
+	display: inline-block;
+}
+
+
+
+
+section .about .cajas .right .button p{
+	background: #edba52;
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 1.2em;
+	border-radius: 5px;
+	display: inline-block;
+}
+.bottom{
+	 border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+
+section .about .cajas .right .name .name1{
+	font-size: 2em;
+	/*margin-bottom: 25px;*/
+}
+section .about .cajas .right .name .dev{
+	font-size: 1.5em; 
+	/*margin-bottom: 25px;*/
+}
+
+section .about .cajas .right .name p{
+	margin:10px 0;
+	text-align: center;
+}
+
+section .about .cajas .right .datos{
+	margin-top: 20px;
+	text-align: center;
+}
+section .about .cajas .right .datos p{
+	margin-bottom:20px;
+}
+
+section .social{
+	background: #60aae7;
+	height:75px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+section .social .socialRed a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	margin: 0 25px;
+}
+
+
+/*----------  WORK  ----------*/
+
+section .trabajos{
+	background: #f8f8f8;
+	margin-top: 60px;
+	
+	
+}
+
+
+section .trabajos .container{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:column;
+	
+}
+
+.trabajos .container .titulo{
+	
+	text-align: center;
+	font-size: 2em;
+	margin:20px 0 40px 0;
+	color: #edba52;
+	text-decoration: underline;
+}
+
+
+section .trabajos .container .container-trabajos{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+section .trabajos .container .container-trabajos .trabajo{
+	width: 20%;
+	margin-bottom: 40px;
+	margin-right: 5px;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	overflow: hidden;
+}
+
+section .trabajos .container .container-trabajos .trabajo .thumb{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+
+ section .trabajos .container .container-trabajos .trabajo .thumb img{
+	width: 100%;
+	height: 150px;	vertical-align: top;
+	border-radius: 3px;
+	opacity:0.5;
+ }
+
+section .trabajos .container .container-trabajos .trabajo .thumb img:hover{
+	opacity: 1;
+}
+
+section .trabajos .container .container-trabajos .trabajo .descripcion{
+	/*text-align: center;*/
+	background: #fff;
+	padding-left: 10px;
+	padding-top: 5px;
+
+}
+
+section .trabajos .container .container-trabajos .trabajo .descripcion .nombre{
+	font-weight: 700;
+	color: #3895ea;
+	margin-bottom: 10px;
+}
+
+section .trabajos .container .container-trabajos .trabajo .descripcion .categoria{
+	font-size: 14px;
+	color:#636363;
+}
+
+
+
+/*----------  FORM ----------*/
+
+footer .contacto{
+	max-width: 1000px;
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+footer .contacto h1{
+	text-align: center;
+	font-size: 2em;
+	margin:20px 0 40px 0;
+	color: #edba52;
+	text-decoration: underline;
+}
+
+footer .contacto .row{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+	padding: 30px 0;
+}
+.col{
+	width: 100%;
+}
+
+
+
+footer .redes-sociales{
+	width: 100%;
+	background: #60aae7;
+	height:75px;
+	display: flex;
+	align-items: center;
+}
+
+.redes-sociales .container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+.redes-sociales .container a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	margin: 0 10px;
+}
+
+.redes-sociales .container a i:hover{
+	cursor: pointer;
+	color: #edba52;
+}
+
+
