@@ -20,20 +20,20 @@ header{
 	background: url('../img/header.png');
 	background-color: rgba(70, 72, 82, 0.8);
 	width: 100%;  
-	background-repeat: no-repeat;
-	/*background-size: 100% 500px;*/
+	background-size: cover;
+	background-position: 0% 20%;
 	height: 500px;
 	padding: 50px 0;
   	display: block;
 }
 
 .container1 .logo{
-	width: 75px;
+	width: 100px;
  	margin-top: -40px; 
 }
 
 .container1 .logo img{
-	width:75px;
+	width:100px;
 	padding: 0; 
 }
 
@@ -78,7 +78,7 @@ section .about{
 	/*display: flex;*/
 	/*flex-direction:row;
 	justify-content: space-between;*/
-	margin-top:-90px;
+	margin-top:-200px;
 	background: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
